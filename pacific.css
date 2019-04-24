@@ -1,0 +1,110 @@
+/*
+Project Name: Pacific Trails Resort (HW15)
+Author: Jennifer Chiang
+Date Last Modified: 4/17/2019
+*/
+
+/*global styles*/
+body { background-color: #3399CC;
+	   background-image: linear-gradient(to bottom, #3399CC, #C2E0F0, #3399CC);
+	   color: #666666;
+	   font-family: Verdana, Arial, Gotham;
+}
+
+/*header element*/
+header { background-color: #000033;
+		 color: #FFFFFF;
+		 font-family: Georgia, Gotham;
+		 display: block;
+}
+
+main { padding: 1px 2em; 
+	   background-color: #FFFFFF;
+	   margin-left: 170px;
+	   display: block;
+}
+
+/*for h1 and h2*/
+h1 { line-height: 200%; 
+	 background-image: url("sunset.jpg");
+	 background-repeat: no-repeat;
+	 background-position: right;
+	 padding-left: 2em;
+	 height: 72px;
+	 margin-bottom: 0;
+}
+
+h2 { color: #3399CC;
+	 font-family: Georgia, Gotham;
+}
+
+h3 { color: #000033; }
+
+/*nav element*/
+nav { font-weight: bold;
+	  padding: 0 0 0 0;
+	  float: left;
+	  width: 160px;
+	  display: block;
+}
+/*nav descendant selectors and pseudo*/
+nav a { text-decoration: none; }
+nav ul { list-style-type: none; 
+		padding-left: 1em; }
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #C2E0F0; }
+nav a:hover { color: #CCCCCC; }
+
+/*description text element*/
+dt { color: #000033;
+	font-weight: bold;
+}
+
+/*footer element*/
+footer { font-size: .70em;
+		text-align: center;
+		font-style: italic;
+		padding: 1em;
+		background-color: #FFFFFF; 
+		margin-left: 170px;
+		display: block;
+}
+
+/*class named resort*/
+.resort { color: #000033;
+		  font-size: 1.2em;
+}
+
+/*id named wrapper*/
+#wrapper { width: 80%;
+		   margin-right: auto;
+		   margin-left: auto;
+		   background-color: #000033;
+		   min-width: 700px;
+		   max-width: 1024px;
+		   box-shadow: 5px 5px #888888;
+}
+
+#homehero { height: 300px;
+			background-image: url("coast.jpg");
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			margin-left: 170px;
+}
+
+#yurthero { height: 300px;
+			 background-image: url("yurt.jpg");
+			 background-size: 100% 100%;
+			 background-repeat: no-repeat;
+			 margin-left: 170px;
+}
+
+#trailhero { height: 300px;
+			 background-image: url("trail.jpg");
+			 background-size: 100% 100%;
+			 background-repeat: no-repeat;
+			 margin-left: 170px;
+}
+
+/*universal selector*/
+* { box-sizing: border-box; }
